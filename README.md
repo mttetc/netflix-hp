@@ -38,8 +38,8 @@ Nous vous demandons de tester un composant React de votre choix, avec les outils
 
 Réaliser en node une API GraphQL permettant de:
 
-- Enregistrer en favori un identifiant des movie TMDB
-- Récupérer tous les identifiants de movies TMDB
+- Enregistrer en favori un identifiant de movie TMDB
+- Récupérer tous les identifiants de movies TMDB favoris
 
 Pour stocker les données, on utilisera au choix LowDB ou un serveur MongoDB Dockerisé.
 
