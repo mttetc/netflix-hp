@@ -18,12 +18,14 @@ Le rendu du test est demandé sous la forme d'un fork privé de ce dépot dans l
 
 ## Partie Frontend
 
+![netflixUI](https://cdn.dribbble.com/users/1378527/screenshots/5097823/attachments/1129879/netflix-home.jpg?compress=1&resize=800x600&vertical=top)
+
 En utilisant l'[API TMDB](https://developers.themoviedb.org/3/getting-started/introduction), on réalisera une page semblable à l'accueil de Netflix.
 
 La partie haute affichera un film (movie) populaire (trending) sélectionné au hasard dans l'API.
 
 La suite de la page affichera:
-- Une section pour chaque genre (genre) de l'API
+- Une section pour chaque genre (genre) de l'API avec les films à découvrir (discover)
 - Dans chaque section, la liste des films (movies) du genre
 - Il doit être possible de faire défiler les films horizontalement
 - Rien n'est demandé au clic sur un film.
