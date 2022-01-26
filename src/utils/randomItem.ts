@@ -1,0 +1,1 @@
+export const getRandomItem = <T>(data: T[]) => data[Math.floor(Math.random() * data.length)]

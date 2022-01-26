@@ -1,48 +1,50 @@
-# Test Netflix
+# Used packages and libraries
 
-Ce test contient deux parties indépendantes:
-- une partie **frontend** qui consiste à reproduire l'interface de Netflix en React et Typescript
-- une partie **backend** optionnelle qui consiste à gérer une API de films favoris
+React-query, react-youtube, swiper, jest, react-testing-library, chakra-ui
 
-Nous prendrons en compte dans notre debrief du test:
-- La lisibilité, l'atomicité et la robustesse du code
-- Le soin apporté aux quelques tests demandés
-- La fluidité de l'interface
-- L'optimisation des requêtes d'API
-- L'experience utilisateur
+# Getting Started with Create React App
 
-Nous n'évaluerons pas:
-- La couverture de tests
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Le rendu du test est demandé sous la forme d'un fork privé de ce dépot dans lequel vous pourrez inviter @maximelebastard, @cchevallscoppe et @Webini. Le test est censé prendre entre 2 et 4 heures. Si vous n'avez pas pu terminer certaines choses ou que vous avez eu des idées que vous n'avez pas eu le temps de mettre en place - n'hésitez surtout pas à nous le préciser dans votre README.md
+## Available Scripts
 
-## Partie Frontend
+In the project directory, you can run:
 
-![netflixUI](https://cdn.dribbble.com/users/1378527/screenshots/5097823/attachments/1129879/netflix-home.jpg?compress=1&resize=800x600&vertical=top)
+### `yarn start`
 
-En utilisant l'[API TMDB](https://developers.themoviedb.org/3/getting-started/introduction), on réalisera une page semblable à l'accueil de Netflix.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-La partie haute affichera un film (movie) populaire (trending) sélectionné au hasard dans l'API.
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-La suite de la page affichera:
-- Une section pour chaque genre (genre) de l'API avec les films à découvrir (discover)
-- Dans chaque section, la liste des films (movies) du genre
-- Il doit être possible de faire défiler les films horizontalement
-- Rien n'est demandé au clic sur un film.
+### `yarn test`
 
-L'architecture du code et les outils sont libres. Seules contraintes: React et Typescript.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Nous vous demandons de tester un composant React de votre choix, avec les outils de votre choix. Le but est de voir un test et de discuter de la méthode, nous n'évaluerons pas le coverage du projet.
+### `yarn build`
 
-## Partie Backend
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Réaliser en node une API GraphQL permettant de:
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- Enregistrer en favori un identifiant de movie TMDB
-- Récupérer tous les identifiants de movies TMDB favoris
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Pour stocker les données, on utilisera au choix LowDB ou un serveur MongoDB Dockerisé.
+### `yarn eject`
 
-Permettre dans le frontend d'enregistrer des films favoris.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-Nous vous demandons de tester unitairement un fichier au choix, avec l'outil de votre choix. Le but est de voir un test et de discuter de la méthode, nous n'évaluerons pas le coverage du projet.
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).

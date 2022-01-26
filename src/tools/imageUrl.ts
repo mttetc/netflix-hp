@@ -1,0 +1,1 @@
+export const getImageUrl = <T extends string>({ baseUrl, size, path }: { baseUrl: string, size: T, path: string }): string => baseUrl.concat(size).concat(path)
