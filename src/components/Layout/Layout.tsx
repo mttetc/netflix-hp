@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Flex, Spinner } from "@chakra-ui/react"
-import { useInit } from "../hooks/useInit"
+import { useInit } from "../../hooks/useInit"
 
 export const Layout = ({ children }: JSX.ElementChildrenAttribute) => {
     const { isLoading } = useInit()
