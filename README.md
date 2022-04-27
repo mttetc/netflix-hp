@@ -1,7 +1,3 @@
-C'était pas demandé mais j'ai ajouté une vidéo aléatoire reliée au film en trending, j'aurais pu aller plus loin et la couper et la relancer selon si elle se trouve dans le viewport.
-J'avoue avoir un peu dépassé le temps prévu mais je me suis amusé à le faire.
-Aussi, je ne savais pas quel genre de test il fallait faire donc j'en ai fait deux.
-
 # Used packages and libraries
 
 React-query, react-youtube, swiper, jest, react-testing-library, chakra-ui
