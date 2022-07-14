@@ -1,9 +1,9 @@
+import { ChakraProvider, extendTheme } from '@chakra-ui/react';
 import React from 'react';
-import { ChakraProvider, extendTheme } from '@chakra-ui/react'
-import { Home } from './modules/home/screens/Home';
-import { CoreProvider } from './react-query/queryClient';
-import { Layout } from './components/Layout/Layout';
 import { theme } from './assets/theme/globalStyle';
+import { Layout } from './components/Layout/Layout';
+import { Home } from './modules/home/Home';
+import { CoreProvider } from './react-query/queryClient';
 
 const customTheme = extendTheme(theme)
 

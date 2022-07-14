@@ -1,5 +1,5 @@
-import { DiscoverApi } from '../../../../react-query/routes/discover'
-import { PaginatedApiResponse } from '../../../../react-query/types/api'
+import { DiscoverApi } from '../../../react-query/routes/discover'
+import { PaginatedApiResponse } from '../../../react-query/types/api'
 import { moviesSectionsServices } from './MoviesSections.services'
 
 const { getMoviesSections } = moviesSectionsServices

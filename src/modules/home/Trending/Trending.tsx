@@ -1,12 +1,11 @@
-import { Box, Flex, Heading } from '@chakra-ui/react'
+import { Flex, Heading } from '@chakra-ui/react'
 import React from 'react'
-import { useConfiguration } from '../../../../react-query/entities/configuration/hooks'
-import { useTrending } from '../../../../react-query/entities/trending/hooks'
-import { BackdropSizes } from '../../../../react-query/routes/configuration'
-import { getImageUrl } from '../../../../tools/imageUrl'
-import { getRandomItem } from '../../../../utils/randomItem'
+import { useConfiguration } from '../../../react-query/entities/configuration/hooks'
+import { useTrending } from '../../../react-query/entities/trending/hooks'
+import { BackdropSizes } from '../../../react-query/routes/configuration'
+import { getImageUrl } from '../../../utils/imageUrl'
+import { getRandomItem } from '../../../utils/randomItem'
 import { MovieVideos } from '../MovieVideos/MovieVideos'
-
 
 export const Trending = () => {
     const { data: trendingMovies } = useTrending({ params: { media_type: 'movie', time_window: 'day' } })

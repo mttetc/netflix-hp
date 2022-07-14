@@ -1,6 +1,6 @@
 import React from 'react'
-import { MoviesSections } from '../components/MoviesSections/MoviesSections'
-import { Trending } from '../components/Trending/Trending'
+import { MoviesSections } from './MoviesSections/MoviesSections'
+import { Trending } from './Trending/Trending'
 
 export const Home = () => {
     return (

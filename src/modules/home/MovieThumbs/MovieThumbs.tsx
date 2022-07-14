@@ -6,10 +6,10 @@ import SwiperCore, {
 import 'swiper/css';
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useConfiguration } from '../../../../react-query/entities/configuration/hooks';
-import { Discover } from '../../../../react-query/entities/discover/types';
-import { BackdropSizes } from '../../../../react-query/routes/configuration';
-import { getImageUrl } from '../../../../tools/imageUrl';
+import { useConfiguration } from '../../../react-query/entities/configuration/hooks';
+import { Discover } from '../../../react-query/entities/discover/types';
+import { BackdropSizes } from '../../../react-query/routes/configuration';
+import { getImageUrl } from '../../../utils/imageUrl';
 
 SwiperCore.use([Keyboard, Navigation]);
 

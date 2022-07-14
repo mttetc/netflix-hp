@@ -1,10 +1,10 @@
 import { Box } from '@chakra-ui/react'
 import React from 'react'
-import { Title } from '../../../../components/Title/Title'
-import { useDiscovers } from '../../../../react-query/entities/discover/hooks'
-import { useGenres } from '../../../../react-query/entities/genre/hooks'
+import { Title } from '../../../components/Title/Title'
+import { useDiscovers } from '../../../react-query/entities/discover/hooks'
+import { useGenres } from '../../../react-query/entities/genre/hooks'
 import { MovieThumbs } from '../MovieThumbs/MovieThumbs'
-import { moviesSectionsServices, MovieSection as MovieSectionProps } from './MoviesSections.services'
+import { MovieSection as MovieSectionProps, moviesSectionsServices } from './MoviesSections.services'
 
 const { getMoviesSections } = moviesSectionsServices
 

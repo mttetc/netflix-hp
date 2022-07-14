@@ -1,8 +1,8 @@
 import { Box, Fade } from '@chakra-ui/react'
 import React, { useMemo, useRef, useState } from 'react'
 import Youtube from 'react-youtube'
-import { useMovieVideos } from '../../../../react-query/entities/video/hooks'
-import { getRandomItem } from '../../../../utils/randomItem'
+import { useMovieVideos } from '../../../react-query/entities/video/hooks'
+import { getRandomItem } from '../../../utils/randomItem'
 
 export const MovieVideos = ({ id }: { id: number }) => {
     const [showVideo, setShowVideo] = useState(false)
